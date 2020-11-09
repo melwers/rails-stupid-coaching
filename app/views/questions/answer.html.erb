@@ -1,0 +1,20 @@
+<h1>Stupid Coaching</h1>
+<p class="border-grey">
+  <%= @question %>
+  <br>
+  <em>- You</em>
+</p>
+<br>
+<p class="coach border-grey" >
+  <%= @answer %>
+  <br>
+  <em>- Your coach</em>
+</p>
+
+<%# <p>
+  <a href="/ask">Ask another question.</a>
+</p> %>
+
+<p>
+  <%= link_to "Ask another question!", ask_path %>
+</p>
